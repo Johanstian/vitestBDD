@@ -1,0 +1,20 @@
+{
+  "name": "vitestbdd",
+  "version": "1.0.0",
+  "description": "Pruebas de BDD con Vitest",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2",
+    "vitest": "^2.1.3"
+  }
+}
